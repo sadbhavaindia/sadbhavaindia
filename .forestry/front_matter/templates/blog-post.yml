@@ -1,0 +1,34 @@
+---
+label: Blog post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
+- type: list
+  name: keywords
+  label: keywords
+- type: boolean
+  name: autoThumbnailImage
+  label: autoThumbnailImage
+- type: text
+  name: thumbnailImagePosition
+  label: thumbnailImagePosition
+- type: file
+  name: thumbnailImage
+  label: thumbnailImage
+- type: file
+  name: coverImage
+  label: coverImage
+- type: text
+  name: metaAlignment
+  label: metaAlignment
